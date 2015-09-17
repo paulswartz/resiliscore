@@ -1,92 +1,36 @@
 {
   "project": {
-    "name": "MA Child Care Finder",
-    "description": "<p>The MA Child Care Finder is a sample app built on Code for Boston's Finda platform, intended to show quick and dirty development of mapping applications using freely available, open-source tools.</p>",
-    "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/codeforboston/finda/issues\" target=\"_blank\">Github</a> page."
+    "name": "Flood Resiliscore",
+    "description": "",
+    "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https:\/\/github.com\/codeforboston\/finda\/issues\" target=\"_blank\">Github<\/a> page."
   },
   "map": {
-    "preview_attribute": "name",
+    "preview_attribute": "Full Add_gen",
     "center": [
       42.3725,
-        -71.1266
+      -71.1266
     ],
-    "zoom": 13,
-    "maxZoom": 16,
+    "zoom": 14,
+    "maxZoom": 17,
     "maxBounds": [
-      [
-        39.2,
-          -78.0
-      ],
-      [
-        44.5,
-          -65.0
-      ]
+      [42.347951218602326,
+       -71.07227325439455],
+      [42.39436825351835,
+       -71.00017547607423]
     ]
   },
   "properties": [
-    "name",
-    "address",
-    "city",
-    "zip",
-    "phone",
-    "email",
-    {"name": "url", "title": "more info", "url": true},
-    {"name": "capacity", "title": "Capacity"},
-    {"name": "type", "title": "Program Type"}
+    "Full Add_gen",
+    "ResiliScore_test"
   ],
   "list": [
-    "name",
-    "address",
-    "city"
+    "Full Add_gen",
+    "ResiliScore_test"
   ],
   "search": {
     "geosearch": true
   },
   "facets": {
-    "type": {
-      "title": "Program Type",
-      "type": "single"
-    },
-    "transport": {
-      "title": "Transportation",
-      "type": "single"
-    },
-    "food": {
-      "title": "Meals",
-      "type": "single"
-    },
-    "special": {
-      "title": "Special Needs",
-      "type": "single"
-    },
-    "help": {
-      "title": "Accepts Financial Assistance",
-      "type": "single"
-    },
-    "duration": {
-      "title": "Duration",
-      "type": "single"
-    },
-    "dropin": {
-      "title": "Drop In Care",
-      "type": "single"
-    },
-    "before": {
-      "title": "Before School",
-      "type": "single"
-    },
-    "after": {
-      "title": "After School",
-      "type": "single"
-    },
-    "holidays": {
-      "title": "Open Holidays",
-      "type": "single"
-    },
-    "accept": {
-      "title": "Part-Time/Full-Time",
-      "type": "single"
-    },
     "map": {
       "title": "Map",
       "text": "Limit results to those visible on the map",
