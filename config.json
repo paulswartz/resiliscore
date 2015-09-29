@@ -5,7 +5,7 @@
     "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https:\/\/github.com\/codeforboston\/finda\/issues\" target=\"_blank\">Github<\/a> page."
   },
   "map": {
-    "preview_attribute": "Full Add_gen",
+    "preview_attribute": "Address",
     "center": [
       42.3725,
       -71.1266
@@ -20,12 +20,20 @@
     ]
   },
   "properties": [
-    "Full Add_gen",
-    "ResiliScore_test"
+    {"name": "Address"},
+    {"name": "ResiliScore", "title": "Flood Score"},
+    {"name": "Flood Zone Designation", "title": "Flood Zone"},
+	{"name": "FL Improvement Link", "title": "more info", "url": true},
+	{"name": "Exterior Finish Score", "title": "Exterior Finish Score"},
+	{"name": "EF Improvement Link",  "title": "more info", "url": true},
+	{"name": "Heat Type Score", "title": "Heat Type Score"},
+	{"name": "HT Improvement Link", "title": "more info", "url": true},
+	{"name": "Year Built Score", "title": "Year Built Score"},
+	{"name": "Year Remodeled Score", "title": "Year Remodeled Score"}
   ],
   "list": [
-    "Full Add_gen",
-    "ResiliScore_test"
+    {"name": "Address"},
+    {"name": "ResiliScore", "title": "Flood Score"}
   ],
   "search": {
     "geosearch": true
